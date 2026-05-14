@@ -11,6 +11,7 @@ get
 }
 
 from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBPe74d1Em1nPcxYbBMiS1S2Wob7NloMcE",
   authDomain: "certificate-verification-386d8.firebaseapp.com",
@@ -51,7 +52,7 @@ data.class;
 
 document.getElementById("school").innerHTML =
 data.school;
-    
+
 document.getElementById("ref").innerHTML =
 data.ref;
 
@@ -60,7 +61,8 @@ data.ref;
 else{
 
 document.querySelector(".card").innerHTML =
-"<h2>❌ Certificate Not Found</h2>";
+
+"<div class='status' style='color:red'>❌ Certificate Not Found</div>";
 
 }
 
