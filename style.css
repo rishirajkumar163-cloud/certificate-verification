@@ -1,113 +1,106 @@
 body{
 
 margin:0;
-padding:0;
 
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial,sans-serif;
 
-background:#eef0f5;
+background:#f5f7fb;
 
 }
 
-.top{
+.header{
 
-background:#0d2ea8;
+background:#0B2FAE;
 
-height:140px;
+padding:16px;
 
 text-align:center;
 
-padding-top:18px;
+}
+
+.header img{
+
+height:60px;
 
 }
 
-.logo{
-
-width:165px;
-
-}
-
-.top h2{
+.header h1{
 
 color:white;
 
-font-size:22px;
+font-size:18px;
 
-margin-top:12px;
+margin:8px 0 0;
 
 font-weight:bold;
 
 }
 
-.main-box{
+.page-title{
 
-display:flex;
+max-width:420px;
 
-flex-direction:column;
+margin:24px auto 0;
 
-align-items:center;
-
-margin-top:26px;
-
-}
-
-.title{
-
-background:#cfe0ff;
+background:#bcd7ff;
 
 padding:12px;
 
-width:470px;
-
 text-align:center;
+
+font-weight:bold;
 
 border-radius:8px;
 
 font-size:16px;
 
-font-weight:bold;
-
-margin-bottom:20px;
-
 }
 
 .card{
 
+max-width:420px;
+
+margin:16px auto;
+
 background:white;
 
-width:470px;
+padding:24px;
 
-border-radius:14px;
+border-radius:12px;
 
-padding:26px;
-
-box-shadow:0px 3px 12px rgba(0,0,0,0.12);
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
 
 }
 
-.card h1{
+.status{
 
-color:#14951b;
+font-size:20px;
 
-font-size:21px;
+font-weight:bold;
 
 text-align:center;
 
-margin-bottom:24px;
+margin-bottom:16px;
+
+color:green;
 
 }
 
-.card p{
+.row{
 
-font-size:18px;
+margin:10px 0;
 
-margin:8px 0;
+font-size:17px;
 
 line-height:1.6;
 
+}
+
+.label{
+
 font-weight:normal;
 
-color:#111;
+color:black;
 
 }
 
@@ -115,69 +108,51 @@ color:#111;
 
 font-weight:bold;
 
-}
-
-.line{
-
-height:1px;
-
-background:#bbb;
-
-margin-top:26px;
-
-margin-bottom:18px;
+color:black;
 
 }
 
 .footer{
 
+max-width:420px;
+
+margin:24px auto;
+
 text-align:center;
 
-font-size:14px;
+font-size:13px;
 
-color:#555;
-
-line-height:1.5;
+color:#333;
 
 }
 
-.footer a{
+hr{
+
+margin:20px 0;
+
+border:none;
+
+border-top:1px solid #bbb;
+
+}
+
+a{
+
+color:#0B2FAE;
 
 text-decoration:none;
 
 font-weight:bold;
 
-color:#1535d1;
-
 }
 
 @media(max-width:600px){
 
-.title{
+.card,
+.page-title,
+.footer{
 
-width:84%;
-
-font-size:15px;
-
-}
-
-.card{
-
-width:84%;
-
-padding:22px;
-
-}
-
-.card p{
-
-font-size:16px;
-
-}
-
-.logo{
-
-width:150px;
+width:88%;
 
 }
 
