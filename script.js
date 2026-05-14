@@ -51,6 +51,9 @@ data.class;
 
 document.getElementById("school").innerHTML =
 data.school;
+    
+document.getElementById("ref").innerHTML =
+data.ref;
 
 }
 
